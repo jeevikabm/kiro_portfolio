@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jeevika BM — Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+
+  <a href="#main-content" class="skip-link">Skip to content</a>
+
+  <!-- ═══════════════════════════════════════════════════════════
+       NAVIGATION
+  ════════════════════════════════════════════════════════════ -->
+  <header class="site-header">
+    <nav class="nav" aria-label="Main navigation">
+      <div class="nav__inner">
+        <a href="#about" class="nav__logo" aria-label="Jeevika BM — home">JBM</a>
+
+        <button
+          class="nav__hamburger"
+          aria-label="Open menu"
+          aria-expanded="false"
+          aria-controls="nav-menu"
+        >
+          <span class="nav__hamburger-bar"></span>
+          <span class="nav__hamburger-bar"></span>
+          <span class="nav__hamburger-bar"></span>
+        </button>
+
+        <ul class="nav__menu" id="nav-menu" role="list">
+          <li><a href="#about"        class="nav__link">About</a></li>
+          <li><a href="#education"    class="nav__link">Education</a></li>
+          <li><a href="#skills"       class="nav__link">Skills</a></li>
+          <li><a href="#projects"     class="nav__link">Projects</a></li>
+          <li><a href="#achievements" class="nav__link">Achievements</a></li>
+          <li><a href="#resume"       class="nav__link">Résumé</a></li>
+          <li><a href="#contact"      class="nav__link">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+  <main id="main-content">
+
+    <!-- ═══════════════════════════════════════════════════════════
+         HERO — ABOUT
+    ════════════════════════════════════════════════════════════ -->
+    <section id="about" class="section hero" aria-labelledby="hero-name">
+
+      <!-- Decorative column: CSS shapes (no portrait) -->
+      <div class="hero__deco" aria-hidden="true">
+        <span class="hero__circle"></span>
+        <span class="hero__square"></span>
+      </div>
+
+      <!-- Content column -->
+      <div class="hero__content">
+        <h1 id="hero-name" class="hero__name">Jeevika BM</h1>
+
+        <p class="hero__tagline">
+          Software Developer &amp; AI/ML Engineer
+        </p>
+
+        <p class="hero__intro">
+          I am a third-year Computer Science and Engineering student passionate about
+          software development, Artificial Intelligence, and Machine Learning. I have
+          hands-on experience with C, Java, Python, JavaScript, React, and AI
+          technologies such as YOLO, LangChain, and Hugging Face. I enjoy building
+          projects, solving problems, learning new technologies, and exploring
+          innovative solutions.
+        </p>
+
+        <div class="hero__cta-row">
+          <a href="#projects" class="btn btn--primary">View Projects</a>
+          <a href="#contact"  class="btn btn--ghost">Contact</a>
+        </div>
+      </div>
+
+    </section>
+
+    <!-- ═══════════════════════════════════════════════════════════
+         EDUCATION
+    ════════════════════════════════════════════════════════════ -->
+    <section id="education" class="section" aria-labelledby="education-heading">
+      <h2 id="education-heading">Education</h2>
+
+      <div class="edu-card">
+        <div class="edu-field">
+          <span class="edu-field__label">Degree</span>
+          <span class="edu-field__value edu-field__value--coral">
+            B.E. Computer Science &amp; Engineering
+          </span>
+        </div>
+        <div class="edu-field">
+          <span class="edu-field__label">Institution</span>
+          <span class="edu-field__value edu-field__value--ink">
+            Maharaja Institute of Technology Thandavapura
+            <span class="edu-field__sub">Visvesvaraya Technological University (VTU)</span>
+          </span>
+        </div>
+        <div class="edu-field">
+          <span class="edu-field__label">Expected</span>
+          <span class="edu-field__value edu-field__value--teal">2028</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══════════════════════════════════════════════════════════
+         SKILLS
+    ════════════════════════════════════════════════════════════ -->
+    <section id="skills" class="section" aria-labelledby="skills-heading">
+      <h2 id="skills-heading">Skills</h2>
+
+      <div class="skills-grid">
+
+        <div class="skill-group">
+          <h3 class="skill-group__heading">Programming Languages</h3>
+          <ul class="chip-list" role="list">
+            <li class="chip chip--lang">C</li>
+            <li class="chip chip--lang">Java</li>
+            <li class="chip chip--lang">Python</li>
+            <li class="chip chip--lang">JavaScript</li>
+          </ul>
+        </div>
+
+        <div class="skill-group">
+          <h3 class="skill-group__heading">Technical Skills</h3>
+          <ul class="chip-list" role="list">
+            <li class="chip chip--tech">HTML</li>
+            <li class="chip chip--tech">CSS</li>
+            <li class="chip chip--tech">React</li>
+            <li class="chip chip--tech">Machine Learning</li>
+            <li class="chip chip--tech">Generative AI</li>
+            <li class="chip chip--tech">LLMs</li>
+            <li class="chip chip--tech">Prompt Engineering</li>
+            <li class="chip chip--tech">LangChain</li>
+            <li class="chip chip--tech">Hugging Face</li>
+            <li class="chip chip--tech">YOLO</li>
+            <li class="chip chip--tech">AI Agents</li>
+            <li class="chip chip--tech">Git</li>
+            <li class="chip chip--tech">GitHub</li>
+            <li class="chip chip--tech">MySQL</li>
+            <li class="chip chip--tech">VS Code</li>
+            <li class="chip chip--tech">Figma</li>
+          </ul>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ═══════════════════════════════════════════════════════════
+         PROJECTS
+    ════════════════════════════════════════════════════════════ -->
+    <section id="projects" class="section" aria-labelledby="projects-heading">
+      <h2 id="projects-heading">Projects</h2>
+
+      <div class="projects-grid">
+
+        <!-- Project 1 -->
+        <article class="project-card" aria-labelledby="project-1-title">
+          <h3 id="project-1-title" class="project-card__title">
+            AURA AI – Urban Risk &amp; Response Architecture
+          </h3>
+          <hr class="project-card__rule">
+          <p class="project-card__desc">
+            An AI-based urban emergency response system that identifies nearby
+            resources such as ambulances and hospitals. Uses a priority-based
+            classification system to assess emergency severity and allocate
+            available resources to the most critical situations first. Built with
+            YOLO and Roboflow for object detection and severity assessment.
+          </p>
+          <ul class="chip-list" role="list" aria-label="Technologies used">
+            <li class="chip chip--lang">YOLO</li>
+            <li class="chip chip--lang">Roboflow</li>
+            <li class="chip chip--lang">Google Antigravity</li>
+            <li class="chip chip--lang">AI / ML</li>
+          </ul>
+          <a
+            href="https://github.com/jeevikabm/AURA"
+            class="project-card__link"
+            target="_blank"
+            rel="noopener noreferrer"
+          >View on GitHub →</a>
+        </article>
+
+        <!-- Project 2 -->
+        <article class="project-card" aria-labelledby="project-2-title">
+          <h3 id="project-2-title" class="project-card__title">
+            Local Emergency Resource Finder
+          </h3>
+          <hr class="project-card__rule">
+          <p class="project-card__desc">
+            An Android app that helps users find nearby hospitals, fire stations,
+            and police stations based on the selected emergency type and the
+            user's current location. Uses GPS and the Google Maps Platform to
+            display real-time resource locations and directions.
+          </p>
+          <ul class="chip-list" role="list" aria-label="Technologies used">
+            <li class="chip chip--lang">Flutter</li>
+            <li class="chip chip--lang">Dart</li>
+            <li class="chip chip--lang">Android Studio</li>
+            <li class="chip chip--lang">GPS</li>
+            <li class="chip chip--lang">Google Maps API</li>
+          </ul>
+          <!-- GitHub URL: add when available -->
+        </article>
+
+      </div>
+    </section>
+
+    <!-- ═══════════════════════════════════════════════════════════
+         ACHIEVEMENTS & CERTIFICATIONS
+         Real entries only — no fabricated content.
+    ════════════════════════════════════════════════════════════ -->
+    <section id="achievements" class="section" aria-labelledby="achievements-heading">
+      <h2 id="achievements-heading">Achievements &amp; Certifications</h2>
+
+      <ul class="achievement-list" role="list">
+
+        <li class="achievement-item">
+          <h3 class="achievement-item__title">Winner – AI Symposium Poster Presentation</h3>
+          <p class="achievement-item__meta">
+            Maharaja Institute of Technology Thandavapura &middot; 2025
+          </p>
+          <!-- Credential URL: add when available -->
+        </li>
+
+        <li class="achievement-item">
+          <h3 class="achievement-item__title">Computer Networks – NPTEL (67%)</h3>
+          <p class="achievement-item__meta">NPTEL &middot; 2026</p>
+          <!-- Credential URL: add when available -->
+        </li>
+
+        <li class="achievement-item">
+          <h3 class="achievement-item__title">AI for Students: Build Your Own Generative AI Model</h3>
+          <p class="achievement-item__meta">NxtWave &middot; 2025</p>
+          <!-- Credential URL: add when available -->
+        </li>
+
+        <li class="achievement-item">
+          <h3 class="achievement-item__title">AI Accelerate Boot Camp</h3>
+          <p class="achievement-item__meta">Amrit Kaal &middot; 2026</p>
+          <!-- Credential URL: add when available -->
+        </li>
+
+        <li class="achievement-item">
+          <h3 class="achievement-item__title">Programming in C</h3>
+          <p class="achievement-item__meta">Infosys &middot; 2024</p>
+          <!-- Credential URL: add when available -->
+        </li>
+
+        <li class="achievement-item">
+          <h3 class="achievement-item__title">Entrepreneurship Quiz – Gen-E Certification</h3>
+          <p class="achievement-item__meta">
+            Maharaja Institute of Technology Thandavapura &middot; 2024
+          </p>
+          <!-- Credential URL: add when available -->
+        </li>
+
+        <li class="achievement-item">
+          <h3 class="achievement-item__title">
+            Design for Customer Engagement / Communication / Personality Dynamics
+          </h3>
+          <p class="achievement-item__meta">IBM &middot; 2025</p>
+          <!-- Credential URL: add when available -->
+        </li>
+
+      </ul>
+    </section>
+
+    <!-- ═══════════════════════════════════════════════════════════
+         RESUME
+    ════════════════════════════════════════════════════════════ -->
+    <section id="resume" class="section" aria-labelledby="resume-heading">
+      <h2 id="resume-heading" class="visually-hidden">Résumé</h2>
+      <div class="resume-cta">
+        <p class="resume-cta__text">Want to know more? Download my résumé.</p>
+        <a
+          href="assets/Jeevika-resume.pdf"
+          download
+          class="btn btn--primary"
+          aria-label="Download Jeevika BM résumé PDF"
+        >Download Résumé ↓</a>
+      </div>
+    </section>
+
+    <!-- ═══════════════════════════════════════════════════════════
+         CONTACT
+    ════════════════════════════════════════════════════════════ -->
+    <section id="contact" class="section section--dark" aria-labelledby="contact-heading">
+      <div class="contact-inner">
+        <h2 id="contact-heading">Get in touch</h2>
+        <hr class="contact-rule">
+
+        <div class="contact-links">
+          <a
+            href="mailto:jeevikamadappa@gmail.com"
+            class="contact-pill"
+            aria-label="Send email to Jeevika BM"
+          >Email</a>
+
+          <a
+            href="https://www.linkedin.com/in/jeevika-bm-b89952397"
+            class="contact-pill"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Jeevika BM on LinkedIn"
+          >LinkedIn</a>
+
+          <a
+            href="https://github.com/jeevikabm"
+            class="contact-pill"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Jeevika BM on GitHub"
+          >GitHub</a>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ═══════════════════════════════════════════════════════════
+       FOOTER
+  ════════════════════════════════════════════════════════════ -->
+  <footer class="site-footer" role="contentinfo">
+    <p>&copy; 2026 Jeevika BM &middot; Built with HTML &amp; CSS</p>
+  </footer>
+
+</body>
+</html>
